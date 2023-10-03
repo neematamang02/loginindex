@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.nav-item{
+   
+    padding-right: 15px;
+}
+
+.carousel-item img{
+    height: 600px;
+    object-fit: cover;
+}
+
+
+.profileimage img{
+    height: 35rem;
+    width: 35rem;
+    border-radius: 100%;
+    object-fit: cover;
+    
+}
+
+
+.textimage{
+    background-image: url("images/pine-watt-2Hzmz15wGik-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hoverimage{
+    transition: transform 0.2s;
+}
+
+
+.hoverimage:hover{
+    transform: scale(1.1);
+    
+}
+
+
+/* @media screen and (max-width:400px){
+    .logincard{
+        width: 100%;
+        
+    }
+    
+} */
